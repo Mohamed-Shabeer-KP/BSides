@@ -31,8 +31,8 @@
 
             <form name="register" class="form-signin" action="registrationValidation.php" method="POST">
               <div class="form-label-group">
-                <input type="text" id="inputUserame" name="inputUserame" class="form-control" placeholder="Username" required autofocus>
-                <label for="inputUserame">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Username" required autofocus>
+                <label for="name">Name</label>
               </div>
 
               <div class="form-label-group">

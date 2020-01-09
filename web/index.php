@@ -224,7 +224,7 @@
 
   <!-- Venue Section -->
   <section id="venue">
-    <div class="container mx-auto ">
+    <div class="container mx-auto">
       <div class="map-example">
         <div class="row">
           <div class="col-lg-6 text-center no-gutters ">
