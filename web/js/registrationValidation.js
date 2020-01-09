@@ -40,8 +40,8 @@ function valEmail() {
     var firstemail = document.getElementById("inputEmail").value;
     var secondemail = document.getElementById("inputEmailConfirm").value;
 
-    var regx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var valformat = regx.test(String(firstemail).toLowerCase());
+    var regx = new RegExp(/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/);
+    var valformat = regx.test(firstemail.toLowerCase());
 
     if (firstemail != "" && secondemail != "") {
         if (firstemail == secondemail) {
