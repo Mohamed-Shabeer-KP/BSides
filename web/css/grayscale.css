@@ -98,7 +98,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Gelasio', serif;
+  
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -286,7 +286,7 @@ a:focus, a:hover {
 }
 
 .bg-blue {
-  background-color: #3d7fe0 !important;
+  background-color: #0e48a0 !important;
 }
 
 .bg-primary {
@@ -301,3 +301,13 @@ footer {
   padding: 5rem 0;
 }
 
+.b1{
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  background: linear-gradient(to bottom, #0e48a0, #3e3ee6);
+}
+.b2{
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  background: linear-gradient(to top,  #3e3ee6, #0e48a0);
+}

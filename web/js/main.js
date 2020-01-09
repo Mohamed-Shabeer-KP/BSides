@@ -8,10 +8,9 @@ $(function () {
         + '<span class="h1 font-weight-bold">%S</span> Sec'));
     });
 
+      
 });
 
-
-
-
-
- 
+$(document).ready(function(){
+  $('.aniview').AniView();
+});
