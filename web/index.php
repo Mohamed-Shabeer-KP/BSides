@@ -50,7 +50,7 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger slideInRight animated" href="#projects">CFP</a>
+            <a class="nav-link js-scroll-trigger slideInRight animated" href="javascript:customAlert('foo');">CFP</a>
           </li>
               <!--
           <li class="nav-item">
@@ -283,9 +283,9 @@
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">City</h4>
+              <h4 class="text-uppercase m-0">Campus</h4>
               <hr class="my-4">
-              <div class="small text-black-50">Kochi</div>
+              <div class="small text-black-50">Amrita School of Arts and Sciences, Kochi</div>
             </div>
           </div>
         </div>
@@ -333,7 +333,7 @@
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; Your Website 2019
+      Design By Bi0s-Kochi
     </div>
   </footer>
 
@@ -352,6 +352,9 @@
 
   <script src="js/jquery.aniview.js"></script>
   <script src="js/speakers.js"></script>
+
+  <script src="/js/bootbox.min.js"></script>
+  <script src="/js/bootbox.locales.min.js"></script>
 
 </body>
 
