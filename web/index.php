@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>BSIDES KOCHI</title>
+  <title>Bsides Kochi</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +79,7 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-      <img class="img-responsive" src="img/bsides-logo.png"  alt="">
+      <img class="w-100" src="img/bsides-logo.png"  alt="">
         <h2 class="text-white-50 mx-auto mt-2 mb-5">
         
         </h2>
