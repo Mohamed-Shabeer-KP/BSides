@@ -39,22 +39,31 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">BSides Kochi</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger slideInRight animated" href="#projects">CFP</a>
+          </li>
+              <!--
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="php/registrationPage.php">Registration</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="#about">About</a>
           </li>
+          <!--
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="#projects">Speakers</a>
           </li>
+          -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="#venue">Venue</a>
           </li>
@@ -70,9 +79,9 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="fadeIn animated">BSides Kochi</h1>
+      <img class="img-responsive" src="img/bsides-logo.png"  alt="">
         <h2 class="text-white-50 mx-auto mt-2 mb-5">
-
+        
         </h2>
         <a href="php/registrationPage.php" class="btn btn-success js-scroll-trigger dloop">Register</a>
       </div>
@@ -88,6 +97,7 @@
             <div class="rounded bg-gradient-3 text-white shadow p-5 mb-2  aniview" data-av-animation="flipInX animated">
               <p class="mb-0 font-weight-bold text-uppercase">Loading</p>
               <div id="clock" class="countdown pt-4"></div>
+              <div id="clock-c" class="countdown py-4"></div>
             </div>
           </div>
         </div>
@@ -99,8 +109,8 @@
 
           <!-- collapse -->
           <p>
-            <a class="btn btn-light" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Security BSides</a>
-            <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">BSides Kochi</button>
+            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Security BSides</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">BSides Kochi</button>
           </p>
           <div class="row">
             <div class="col">
@@ -127,12 +137,12 @@
     </div>
   </section>
 
-
-  <!-- Projects Section -->
+<
+  <!-- Speakers Section 
   <section id="projects" class="projects-section bg-light">
     <div class="container">
 
-      <!-- Featured Project Row -->
+      <!-- Featured Project Row 
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
@@ -145,7 +155,7 @@
         </div>
       </div>
 
-      <!-- Project One Row -->
+      <!-- Project One Row 
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <div id="team">
@@ -181,7 +191,7 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
+      <!-- Project Two Row 
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
         
@@ -221,9 +231,15 @@
 
     </div>
   </section>
+-->
+
+
+
+
+
 
   <!-- Venue Section -->
-  <section id="venue">
+  <section id="venue" name="venue" class="darkover">
     <div class="container mx-auto">
       <div class="map-example">
         <div class="row">
@@ -248,6 +264,7 @@
                 </ul>
               </div>
             </div>
+            <img src="img/amrita.png"  class="w-100 mt-4" alt="">
           </div>
         </div>
       </div>
