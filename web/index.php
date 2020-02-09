@@ -109,8 +109,8 @@
 
           <!-- collapse -->
           <p>
-            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Security BSides</a>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">BSides Kochi</button>
+            <a class="btn btn-primary m-1" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Security BSides</a>
+            <button class="btn btn-primary m-1" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">BSides Kochi</button>
           </p>
           <div class="row">
             <div class="col">
@@ -246,11 +246,11 @@
           <div class="col-lg-6 text-center no-gutters ">
 
             <div id="map">
-              <iframe width="100%" height="520" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=10.0464173,76.2950208&amp;q=Amrita%20School%20of%20Arts%20and%20Sciences%20%2C%20Kochi+(BSides%20Venue)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              <iframe class="pt-3" width="100%" height="100%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=10.0464173,76.2950208&amp;q=Amrita%20School%20of%20Arts%20and%20Sciences%20%2C%20Kochi+(BSides%20Venue)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
               </iframe>
             </div>
           </div>
-          <div class="col-lg-6 b2 text-white shadow p-5 container mx-auto ">
+          <div class="col-lg-6 b2 text-white shadow container m-3 p-5 mx-auto  no-gutters ">
             <div class="heading text-center bg ">
               <h2>Venue</h2>
             </div>
