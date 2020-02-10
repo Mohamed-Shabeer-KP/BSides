@@ -79,7 +79,7 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-      <img class="w-100" src="img/bsides-logo.png"  alt="">
+      <img class="w-50" src="img/bsides-logo.png"  alt="">
         <h2 class="text-white-50 mx-auto mt-2 mb-5">
         
         </h2>
@@ -96,8 +96,7 @@
           <div class="mx-auto col-lg-7">
             <div class="rounded bg-gradient-3 text-white shadow p-5 mb-2  aniview" data-av-animation="flipInX animated">
               <p class="mb-0 font-weight-bold text-uppercase">Loading</p>
-              <div id="clock" class="countdown pt-4"></div>
-              <div id="clock-c" class="countdown py-4"></div>
+              <div id="clock-c" class="countdown py-4 mx-auto"></div>
             </div>
           </div>
         </div>

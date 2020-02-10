@@ -134,6 +134,7 @@ exports.build = build;
 exports.watch = watch;
 exports.default = build;
 
+// live development for php/html
 var gulp_php = require('gulp'),
     connect = require('gulp-connect-php'),
     browserSync = require('browser-sync');
