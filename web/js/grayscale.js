@@ -43,10 +43,10 @@
 
 
 
-function customAlert(invalid_field) {
+function cfpAlert(invalid_field) {
   bootbox.dialog({
       title: 'Call For Presentation',
-      message: '<div class="alert alert-primary" role="alert">' + 'Welcome to the CFP for the 2020 edition of the BSides-Kochi. we would like to see awsome submissions for various Technical Talks. Please fill out <a href="#" class="alert-link">this form</a> and after reviewing your response we will contact you.'+ '</div>',
+      message: '<div class="alert alert-primary" role="alert">' + 'Welcome to the CFP for the 2020 edition of the BSides-Kochi. we would like to see awsome submissions for various Technical Talks. Please fill out <a href="https://forms.gle/6BiwMBvdBrQFQA3TA" class="alert-link">this form</a> and after reviewing your response we will contact you.'+ '</div>',
       closeButton: 'true',
       onEscape: 'true',
       className: 'pulse animated'

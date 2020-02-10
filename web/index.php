@@ -50,7 +50,7 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger slideInRight animated" href="javascript:customAlert('foo');">CFP</a>
+            <a class="nav-link js-scroll-trigger slideInRight animated" href="javascript:cfpAlert();">CFP</a>
           </li>
               <!--
           <li class="nav-item">
