@@ -114,14 +114,14 @@
           <div class="row">
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body text-justify ">
+                <div class="card card-body text-justify text-light bg-transparent border border-white rounded">
                 Security BSides is a community-led framework for establishing events for and by InfoSec community.  Many such events have been arranged in several countries throughout the world. BSides has come to be known as a ‘conference by the community for the community’. It creates opportunities for individuals to both present. 
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample2">
-                <div class="card card-body text-justify">
+                <div class="card card-body text-justify text-light bg-transparent border border-white rounded">
                 BSides Kochi is the inaugural BSides conference to be held in ASAS, Kochi. Bsides Kochi seeks to be an open conference to everyone vested in computer security. These include industry leaders, information security professionals, government organisations, and even students and hobbyists who wish to expand their body of knowledge. 
                 </div>
               </div>
