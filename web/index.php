@@ -26,6 +26,7 @@
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/particle.css" rel="stylesheet">
 
+
   <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
 
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -33,12 +34,24 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet"> 
+   
+
 </head>
-
+ 
+ 
 <body id="page-top">
-
+  <!-- preloader -->
+  <div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          
+        </div>
+      </div>
+   </div> 
+  
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top fill" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top fill " id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
       BSides Kochi
@@ -55,7 +68,7 @@
           </li>
               
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger slideInRight animated" href="php/registrationPage.php">Registration</a>
+            <a class="nav-link js-scroll-trigger slideInRight animated" href="page/registrationPage.php">Registration</a>
           </li> 
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="#about">About</a>
@@ -77,23 +90,24 @@
   </nav>
 
   <!-- Header -->
-
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center "  id="particles-js">
       <img class="w-75" src="img/bsides-logo.png"  alt="">
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">
-        
-        </h2>
-        <a href="php/registrationPage.php" class="btn btn-success js-scroll-trigger dloop">Register</a>
+      </br>
+        <a href="page/registrationPage.php" class="btn btn-success js-scroll-trigger dloop mt-5">Register</a>
       </div>
     </div>
   </header>
   
 
-  <!-- About Section -->
+  <!-- Welcome and About Section -->
+
   <section id="about" class="about-section text-center">
+  <h2 class="text-white-50 mx-auto mt-2 mb-5 typewrite m-2 cusfont" data-period="2000" data-type='[ "Hi, Welcome to ", "BSides Kochi.", "Cyber security conference at kochi", "Register now ..." ]'>
+  <span class="wrap"></span>
+  </h2>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -148,12 +162,12 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/cfp.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0"  src="img/cfp.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>Call For Presentation</h4>
-            <p class="text-black-50 mb-0">
+            <p class="text-black-50 mb-0" >
              Welcome to the CFP for the 2020 edition of the BSides-Kochi. we would like to see awsome submissions for various Technical Talks. Please fill out the below form and after reviewing your response we will contact you.</br></br>Link : <u><a href="https://forms.gle/6BiwMBvdBrQFQA3TA" class="alert-link">Apply Here</a></u>
              </p>
             </div>
@@ -362,7 +376,8 @@
   <script src="/js/bootbox.locales.min.js"></script>
 
   <script src="/js/particle.js"></script>  
-  
+  <script src="/js/typewriter.js"></script> 
+
 </body>
 
 </html>

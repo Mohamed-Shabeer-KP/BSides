@@ -1,10 +1,16 @@
+
+
 $(function () {
+  /* Preloader*/
+  $("#loading").load("/page/preloader.html"); 
 
+$(window).on("load", function(){
+  $('#loading').fadeOut('slow', function() {
+    $(this).remove();
+  });
+});
 
-
-  /* =========================================
-      COUNTDOWN 
-   ========================================= */
+  /* COUNTDOWN  */
   function get15dayFromNow() {
       return new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
   }
@@ -16,11 +22,8 @@ $(function () {
       + '<span class="h1 font-weight-bold">%M</span> Min'
       + '<span class="h1 font-weight-bold">%S</span> Sec'));
   });
-
-
 });
 
 $(document).ready(function(){
   $('.aniview').AniView();
 });
-
