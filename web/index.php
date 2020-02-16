@@ -93,10 +93,10 @@
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center " id="particles-js">
+      <div class="mx-auto text-center" id="particles-js">
       <img class="w-75" src="img/bsides-logo.png"  alt="">
       </br>
-        <a href="page/registrationPage.php" class="btn btn-success js-scroll-trigger dloop mt-5 ">Register</a>
+        <a href="page/registrationPage.php" class="btn btn-success js-scroll-trigger dloop mt-5">Register</a>
       </div>
       </div>
     </div>
