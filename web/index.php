@@ -53,10 +53,10 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="javascript:cfpAlert();">CFP</a>
           </li>
-              <!--
+              
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="php/registrationPage.php">Registration</a>
-          </li> -->
+          </li> 
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger slideInRight animated" href="#about">About</a>
           </li>
@@ -141,20 +141,22 @@
   </section>
 
 
-  <!-- Speakers Section 
+  <!-- Speakers Section -->
   <section id="projects" class="projects-section bg-light">
     <div class="container">
 
-      <!-- Featured Project Row 
+      <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/cfp.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-          </div>
+            <h4>Call For Presentation</h4>
+            <p class="text-black-50 mb-0">
+             Welcome to the CFP for the 2020 edition of the BSides-Kochi. we would like to see awsome submissions for various Technical Talks. Please fill out the below form and after reviewing your response we will contact you.</br></br>Link : <u><a href="https://forms.gle/6BiwMBvdBrQFQA3TA" class="alert-link">Apply Here</a></u>
+             </p>
+            </div>
         </div>
       </div>
 
@@ -232,10 +234,10 @@
         </div>
       </div>
 
-    </div>
-  </section>
+ 
 -->
-
+</div>
+  </section>
 
 
 
