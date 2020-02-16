@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
+<head>  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -25,6 +24,7 @@
   <link href="css/gmap.css" rel="stylesheet">
   <link href="css/speakers.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link href="css/particle.css" rel="stylesheet">
 
   <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
 
@@ -32,6 +32,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -40,7 +41,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top fill" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      
+      BSides Kochi
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -76,9 +77,11 @@
   </nav>
 
   <!-- Header -->
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
+      <div class="mx-auto text-center "  id="particles-js">
       <img class="w-75" src="img/bsides-logo.png"  alt="">
         <h2 class="text-white-50 mx-auto mt-2 mb-5">
         
@@ -87,6 +90,7 @@
       </div>
     </div>
   </header>
+  
 
   <!-- About Section -->
   <section id="about" class="about-section text-center">
@@ -355,6 +359,8 @@
   <script src="/js/bootbox.min.js"></script>
   <script src="/js/bootbox.locales.min.js"></script>
 
+  <script src="/js/particle.js"></script>  
+  
 </body>
 
 </html>
