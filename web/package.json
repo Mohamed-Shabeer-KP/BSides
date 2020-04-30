@@ -32,7 +32,7 @@
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootbox": "^5.4.0",
         "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
+        "jquery": "3.5.0",
         "jquery-aniview": "^1.0.2",
         "jquery.easing": "^1.4.1",
         "lesshat": "^4.1.0"
