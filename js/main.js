@@ -1,3 +1,4 @@
+$(function () {
   var delay = 11 * 1000;
 
   /* COUNTDOWN  */
