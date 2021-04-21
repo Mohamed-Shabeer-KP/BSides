@@ -1,4 +1,11 @@
 $(function () {
+  /* Preloader*/
+
+  $(window).on('load', function () {
+    $('#loading').fadeOut('slow', function () {
+      $(this).remove();
+    });
+  });
 
   var delay = 11 * 1000;
 
