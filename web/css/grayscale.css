@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -135,12 +135,6 @@
   }
 }
 
-a.disabled {
-  pointer-events: none;
-  cursor: default;
-  color: rgba(0, 0, 0, 0.1);
-}
-
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -166,24 +160,6 @@ a.disabled {
 
 .btn-primary:active {
   background-color: #467370 !important;
-}
-
-.tip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tip:hover .tooltiptext {
-  visibility: visible;
 }
 
 .about-section {
@@ -318,78 +294,4 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
-}
-
-
-.b1{
-  background: #7f7fd5;
-  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
-  background: linear-gradient(to bottom, #323535, #000);
-}
-
-.b2{
-  background: linear-gradient(132deg, #269add, #0b8f63);
-  background-size: 400% 400%;
-  animation: BackgroundGradient 10s ease infinite;
-}
-
-@keyframes BackgroundGradient {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-
-
-#venue {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 5rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/fafa1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/*navbar anim*/
-.navbar{background:#222222;}
-.nav-item::after{content:'';display:block;width:0px;height:2px;background:#000000;transition: 0.2s;}
-.nav-item:hover::after{width:100%;}
-.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:#fec400;}
-.nav-link{padding:15px 5px;transition:0.2s;}
-.dropdown-item.active, .dropdown-item:active{color:#212529;}
-.dropdown-item:focus, .dropdown-item:hover{background:#fec400;}
-
-h2.cusfont {
-  font-family: 'Odibee Sans', cursive;
-}
-
-#loading{
-  background-color: #221e1d;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 999999;      
-  margin-top: 0px;
-  top: 0px;
-}
-
-
-#loading-center{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-
-#loading-center-absolute {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 200px;
-  width: 200px;
-  margin-top: -100px;
-  margin-left: -100px;
 }
